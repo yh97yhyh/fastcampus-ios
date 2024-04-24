@@ -13,6 +13,9 @@
 		F8061BD92BD8CCBD00FAA6ED /* Base in Resources */ = {isa = PBXBuildFile; fileRef = F8061BD82BD8CCBD00FAA6ED /* Base */; };
 		F8061BDB2BD8CCBE00FAA6ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8061BDA2BD8CCBE00FAA6ED /* Assets.xcassets */; };
 		F8061BDE2BD8CCBE00FAA6ED /* Base in Resources */ = {isa = PBXBuildFile; fileRef = F8061BDD2BD8CCBE00FAA6ED /* Base */; };
+		F8061BE62BD8CFFB00FAA6ED /* MyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8061BE52BD8CFFB00FAA6ED /* MyViewController.swift */; };
+		F8061BE92BD8D24E00FAA6ED /* MyTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8061BE82BD8D24E00FAA6ED /* MyTableViewController.swift */; };
+		F8061BEB2BD8D88B00FAA6ED /* TodoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8061BEA2BD8D88B00FAA6ED /* TodoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		F8061BDA2BD8CCBE00FAA6ED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F8061BDD2BD8CCBE00FAA6ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F8061BDF2BD8CCBE00FAA6ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F8061BE52BD8CFFB00FAA6ED /* MyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyViewController.swift; sourceTree = "<group>"; };
+		F8061BE82BD8D24E00FAA6ED /* MyTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTableViewController.swift; sourceTree = "<group>"; };
+		F8061BEA2BD8D88B00FAA6ED /* TodoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +62,26 @@
 		F8061BD02BD8CCBD00FAA6ED /* MyUIKit */ = {
 			isa = PBXGroup;
 			children = (
+				F8061BE72BD8D20500FAA6ED /* ViewController */,
 				F8061BD12BD8CCBD00FAA6ED /* AppDelegate.swift */,
 				F8061BD32BD8CCBD00FAA6ED /* SceneDelegate.swift */,
-				F8061BD52BD8CCBD00FAA6ED /* ViewController.swift */,
 				F8061BD72BD8CCBD00FAA6ED /* Main.storyboard */,
 				F8061BDA2BD8CCBE00FAA6ED /* Assets.xcassets */,
 				F8061BDC2BD8CCBE00FAA6ED /* LaunchScreen.storyboard */,
 				F8061BDF2BD8CCBE00FAA6ED /* Info.plist */,
 			);
 			path = MyUIKit;
+			sourceTree = "<group>";
+		};
+		F8061BE72BD8D20500FAA6ED /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				F8061BD52BD8CCBD00FAA6ED /* ViewController.swift */,
+				F8061BE52BD8CFFB00FAA6ED /* MyViewController.swift */,
+				F8061BE82BD8D24E00FAA6ED /* MyTableViewController.swift */,
+				F8061BEA2BD8D88B00FAA6ED /* TodoViewController.swift */,
+			);
+			path = ViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,6 +157,9 @@
 			files = (
 				F8061BD62BD8CCBD00FAA6ED /* ViewController.swift in Sources */,
 				F8061BD22BD8CCBD00FAA6ED /* AppDelegate.swift in Sources */,
+				F8061BE62BD8CFFB00FAA6ED /* MyViewController.swift in Sources */,
+				F8061BE92BD8D24E00FAA6ED /* MyTableViewController.swift in Sources */,
+				F8061BEB2BD8D88B00FAA6ED /* TodoViewController.swift in Sources */,
 				F8061BD42BD8CCBD00FAA6ED /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -218,7 +238,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -275,7 +295,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;

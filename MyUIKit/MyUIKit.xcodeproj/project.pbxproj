@@ -16,6 +16,7 @@
 		F8061BE62BD8CFFB00FAA6ED /* MyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8061BE52BD8CFFB00FAA6ED /* MyViewController.swift */; };
 		F8061BE92BD8D24E00FAA6ED /* MyTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8061BE82BD8D24E00FAA6ED /* MyTableViewController.swift */; };
 		F8061BEB2BD8D88B00FAA6ED /* TodoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8061BEA2BD8D88B00FAA6ED /* TodoViewController.swift */; };
+		F88FEF9A2BD8E3040021BA90 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F88FEF992BD8E3040021BA90 /* ProfileViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		F8061BE52BD8CFFB00FAA6ED /* MyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyViewController.swift; sourceTree = "<group>"; };
 		F8061BE82BD8D24E00FAA6ED /* MyTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTableViewController.swift; sourceTree = "<group>"; };
 		F8061BEA2BD8D88B00FAA6ED /* TodoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoViewController.swift; sourceTree = "<group>"; };
+		F88FEF992BD8E3040021BA90 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 			isa = PBXGroup;
 			children = (
 				F8061BE72BD8D20500FAA6ED /* ViewController */,
+				F88FEF992BD8E3040021BA90 /* ProfileViewController.swift */,
 				F8061BD12BD8CCBD00FAA6ED /* AppDelegate.swift */,
 				F8061BD32BD8CCBD00FAA6ED /* SceneDelegate.swift */,
 				F8061BD72BD8CCBD00FAA6ED /* Main.storyboard */,
@@ -159,6 +162,7 @@
 				F8061BD22BD8CCBD00FAA6ED /* AppDelegate.swift in Sources */,
 				F8061BE62BD8CFFB00FAA6ED /* MyViewController.swift in Sources */,
 				F8061BE92BD8D24E00FAA6ED /* MyTableViewController.swift in Sources */,
+				F88FEF9A2BD8E3040021BA90 /* ProfileViewController.swift in Sources */,
 				F8061BEB2BD8D88B00FAA6ED /* TodoViewController.swift in Sources */,
 				F8061BD42BD8CCBD00FAA6ED /* SceneDelegate.swift in Sources */,
 			);
